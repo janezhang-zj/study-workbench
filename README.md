@@ -38,14 +38,18 @@
 
 ```bash
 # 直接打开
-双击 study-workbench.html
+双击 index.html
 
 # 或者用任意静态服务器
 python -m http.server 8000
-# 然后访问 http://localhost:8000/study-workbench.html
+# 然后访问 http://localhost:8000/
 ```
 
-> 想用 GitHub Pages 在线访问，把文件重命名为 `index.html` 并在仓库 Settings → Pages 里开启即可。
+> 在线访问：已通过 GitHub Pages 部署 → https://janezhang-zj.github.io/study-workbench/
+
+## 在线版与本地版的数据
+
+GitHub Pages 地址与本地 `file://` 打开属于不同的存储来源，学习数据互不相通。想迁移数据，先用「导出学习记录（JSON）」在旧环境导出，再到新环境「导入备份」即可。
 
 ## 数据说明
 
